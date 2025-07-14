@@ -44,16 +44,28 @@ console.log(teachers)
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
 
-//per poter aggiungere un insegnante vado ad utilizzare push e inserire l'elemento tra le parentesi
+//per poter aggiungere un insegnante alla fine vado ad utilizzare push e inserisco l'elemento tra le parentesi
 teachers.push('Vanessa');
 console.log(teachers);
 
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
 
+//per poter aggiungere un insegnanteall'inizio vado ad utilizzare unshift e inseririsco l'elemento tra le parentesi
+teachers.unshift('Sarah');
+console.log(teachers);
+
+
 // 7. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
-const lewisIndex = null;
+
+//per poter trovare l'indice vado ad utilizzare indexOf e inserire il nome dell'elemento del quale mi serve sapere il valore dell'indice tra le parentesi
+const lewisIndex = teachers.indexOf('Lewis');
+console.log(lewisIndex);
 
 // 8. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
-const isTeachersEmpty = null;
+
+//vado ad utilizzare for per verificare gli elementi
+for (let i = 0; i < teachers.length; i++);
+const isTeachersEmpty = teachers[i];
+console.log(isTeachersEmpty);
