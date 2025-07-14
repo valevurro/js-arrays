@@ -15,7 +15,7 @@ const teachers = [
 const fourthTeacher = teachers[3];
 
 //il valore che viene stampato in console è Phil
-.console.log(fourthTeacher);
+console.log(fourthTeacher);
 
 
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
@@ -36,9 +36,17 @@ console.log(lastTeacher);
 console.log(teachers)
 
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
-const firstTeacher = null;
+
+//per poter rimuovere il primo elemento vado ad utilizzare shift e non c'è bisogno di inserire alcun elemento tra le parentesi
+const firstTeacher = teachers.shift();
+console.log(firstTeacher)
+console.log(teachers)
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
+
+//per poter aggiungere un insegnante vado ad utilizzare push e inserire l'elemento tra le parentesi
+teachers.push('Vanessa');
+console.log(teachers);
 
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
 
